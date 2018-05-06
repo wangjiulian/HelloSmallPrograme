@@ -1,0 +1,15 @@
+<wxs src="test.wxs" module='tool'/>
+<view>{{tool.foo}}</view>
+<view>{{tool.bar(tool.foo)}}</view>
+
+<wxs module='foo'>
+
+var some_msg = '2111';
+module.exports = {
+
+  msg: some_msg,
+}
+
+</wxs>
+
+<view>{{foo.msg}}</view>

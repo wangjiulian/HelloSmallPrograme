@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/swiper/swiper",
+    "pages/map/map",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default",
+    "backgroundColor":"white"
+  },
+  "tabBar":{
+    "position": "bottom",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"black",
+    "color":"#e1e1e1",
+    "selectedColor": "#000",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"imgs/menu1_nor.png",
+      "selectedIconPath":"imgs/menu1_pre.png"
+    
+    },{
+      "pagePath": "pages/swiper/swiper",
+      "text": "日志",
+      "iconPath": "imgs/menu2_nor.png",
+     "selectedIconPath": "imgs/menu2_pre.png"
+    }]
+  }
+  
+}
